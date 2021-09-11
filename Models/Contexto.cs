@@ -14,5 +14,9 @@ namespace WEBAQSEDE.Models
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Entregador> Entregadores { get; set; }
         public DbSet<Estabelecimento> Estabelecimentos { get; set; }
+        public DbSet<Entrega> Entregas { get; set; }
+        public DbSet<Pedido> Pedidos { get; set; }
+        public DbSet<Produto> Produtos { get; set; }
+
     }
 }
