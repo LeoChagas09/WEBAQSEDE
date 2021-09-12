@@ -40,15 +40,15 @@ namespace WEBAQSEDE.Models.Dominio
         [Required(ErrorMessage = "Campo Quantidade é obrigatorio")]
         public int Quantidade { get; set; }
 
-        [Display(Name = "Valor Total")]
+        /*[Display(Name = "Valor Total")]
         [NotMapped]
         public float ValorTotal { 
-            get (float) (Quantidade * Valor_Produto) };
+            get (float) (Quantidade * Valor_Produto);}
 
         [StringLength(35)]
         [DisplayName("Previsão de Entrega")]
         [Required(ErrorMessage = "Campo Previsão Entrega é obrigatorio")]
-        public string PrevisaoEntrega { get; set; }
+        public string PrevisaoEntrega { get; set; }*/
 
     }
 }
